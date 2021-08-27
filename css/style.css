@@ -1,0 +1,241 @@
+/* CSS VARIABLES */
+*
+{
+  --primary: #e3d200;
+  --light: #ededed;
+}
+
+.card-img-top{
+  height: 200px;
+
+}
+
+.caroubox{
+    height: 180px;
+    width: auto;
+    background-color: #00000070;
+    margin-bottom: 35%;
+}
+@import url(https://fr.allfont.net/allfont.css?fonts=garamond-bold);
+
+@font-face {
+      font-family: myFirstFont;
+      src: url('../font/garamond-bold.ttf');
+}
+
+#font {
+      font-family: myFirstFont;
+}
+
+
+
+html, body
+{
+	background-image: url("../images/pf.jpg");
+	color: black;
+	font-family: myFirstFont;
+}
+
+h2
+{
+	text-align: center;
+	color: white;
+}
+.card-text{
+  font-size: 0.7rem;
+}
+
+.rounded-circle{
+     border-radius: auto;
+     background: transparent;
+     padding: auto;
+     width: 200px;
+     height: 150px;
+     clip-path:ellipse(37% 50%);
+}
+
+a
+{
+	font-size: 1.4rem;
+	margin-right: 30px;
+}
+
+h3
+{
+	font-size: 35px;
+}
+
+.navbar
+{
+	border-bottom: solid var(--primary) 3px;
+
+}
+
+.Bienvenue
+{
+	background-color: black;
+	opacity: 50%;
+	font-size: 35px;
+}
+
+.se
+{
+	padding-top: 50px;
+}
+
+#Gammes
+{
+	border-bottom: solid var(--primary) 3px;
+}
+
+.cards
+{
+	padding-top: 25px;
+	text-align: justify;
+}
+
+#Histoire
+{
+	border-bottom: solid var(--primary) 3px;
+}
+
+.histoire
+{
+	padding-top: 50px;
+}
+
+.experience
+{
+	padding-top: 25px;
+	text-align: center;
+	font-size: 3em;
+}
+
+.circle
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.btn
+{
+	background-color: var(--primary);
+	color: black;
+	border: 0px;
+  font-weight: bold;
+}
+
+.one
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: solid var(--primary) 3px;
+	border-bottom: solid var(--primary) 3px;
+}
+
+.two
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: solid var(--primary) 3px;
+}
+
+.accordion
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.card {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.card-header
+{
+	background-color: var(--primary);
+}
+
+.colLapse
+{
+	color: black;
+}
+
+.card2
+{
+	border-radius: 10px;
+	color: black;
+}
+
+.footer
+{
+  width: 100%;
+  background-color: white;
+  margin: 0;
+}
+
+.sitefooter
+{
+	border: none;
+}
+
+p {
+    margin-top: auto;
+    margin-bottom: rem;
+}
+
+.p1
+{
+  padding-top: 10px;
+	height: 35px;
+	width: 30px;
+}
+
+.p2
+{
+  padding-top: 10px;
+  height: 35px;
+  width: 30px;
+}
+
+.p3
+{
+  padding-top: 10px;
+  height: 35px;
+  width: 30px;
+}
+
+.p4
+{
+  padding-top: 10px;
+	height: 35px;
+	width: 30px;
+}
+
+
+.mapouter
+{
+	position: relative;
+	text-align: right;
+	height: 500px;
+	width: 500px;
+}
+
+.gmap_canvas
+{
+	overflow: hidden;
+	background: none!important;
+	height:500px;
+	width:400px;
+}
+.form-control {
+    display: block;
+    width: 80%;
+    border: solid;
+  }
